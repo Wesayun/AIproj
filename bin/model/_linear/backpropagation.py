@@ -1,7 +1,7 @@
 import numpy as np
-import sys
-sys.path.append(r'D:\code\src\nnscratch\scalar2matrix')
 import two_layer_nn as tln
+#import sys
+#sys.path.append(r'D:\code\src\nnscratch\scalar2matrix')
 
 def backward_pass(net, y_true):
     """
